@@ -28,5 +28,8 @@ public class Pessoa {
 		this.idade = idade;
 	}
 	
+	public String toString() {
+		return "\nNome: " + this.nome + "\nIdade: " + this.idade;
+	}
 	
 }
